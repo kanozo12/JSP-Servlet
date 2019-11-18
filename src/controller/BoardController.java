@@ -7,6 +7,6 @@ public class BoardController implements Controller{
 	@Override
 	public String service(HttpServletRequest req, HttpServletResponse resp) {
 	
-		return "index";
+		return "main";
 	}
 }
